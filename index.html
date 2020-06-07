@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scope</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/lib/bootstrap-4.5.0/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./assets/lib/bootstrap-4.5.0/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body>
+  <div id="scopeHomePage">
+    <div class="container">
+      <div class="hero-section row">
+        <div class="col-12">
+          <div class="header row p-4">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+              <div class="container" id="mynav">
+                <div class="logo col-4">
+                    <a class="navbar-brand"><img class="logo-img" src="./assets/images/logo.png" alt="" style="width: 60%;"/></a>
+                </div>
+                <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse col-8 nav-links navbar-collapse" id="nav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light font-weight-bold px-3" href="#"><span>Home</span></a></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light font-weight-bold px-3" href="#"><span>Team</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light font-weight-bold px-3" href="#technology"><span>Technology</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light font-weight-bold px-3" href="#news"><span>News</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light font-weight-bold px-3" href="#"><span>Contact Us</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="row main-section">
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <h1 class="title">CAPTURE CLEARLY.</h1>
+                  <p class="desc">We're building lenses whose optical power is tunable, and which can zoom losslessly.<br/>These lenses aren't made of glass, but of liquid crystals, whose optical power can be changed by applying an<br/>electric field across them. Thus, with a single flat system we are able to zoom losslessly, without any moving parts.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 per-wrapper">
+                  <div class="row">
+                    <div class="col">
+                      <div class="percent">50%</div>
+                      <div class="per-txt">SMALLER</div>
+                    </div>
+                    <div class="col">
+                      <div class="percent">15%</div>
+                      <div class="per-txt">CHEAPER</div>
+                    </div>
+                    <div class="col">
+                      <div class="percent">60%</div>
+                      <div class="per-txt">LOREM IPSUM</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row video-carousel mt-0 testmonial-container mb-0">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <!-- <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            </ul> -->
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner" style="width: 50%; margin: auto;">
+                <div class="carousel-item active">
+                    <div class="carousel-content">
+                      <img src="./assets/images/video.jpg" alt="" />    
+                      <p style="width: 100%; text-align: initial; margin-top: 35px; font-weight: 300; font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                      <h4 style="font-size: 12px; font-weight: 300; text-align: initial; color: #e0ac61;">Published on Feb 16, 2015 I 02:33</h4>
+                      <h6 style="width: 100%; text-align: initial; margin-top: 35px; font-weight: 300; font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-content">
+                    <img src="./assets/images/video.jpg" alt="" />    
+                    <p style="width: 100%; text-align: initial; margin-top: 35px; font-weight: 300; font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <h4 style="font-size: 12px; font-weight: 300; text-align: initial; color: #e0ac61;">Published on Feb 16, 2015 I 02:33</h4>
+                    <h6 style="width: 100%; text-align: initial; margin-top: 35px; font-weight: 300; font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-content">
+                    <img src="./assets/images/video.jpg" alt="" />    
+                    <p style="width: 100%; text-align: initial; margin-top: 35px; font-weight: 300; font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <h4 style="font-size: 12px; font-weight: 300; text-align: initial; color: #e0ac61;">Published on Feb 16, 2015 I 02:33</h4>
+                    <h6 style="width: 100%; text-align: initial; margin-top: 35px; font-weight: 300; font-size: 14px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+      </div>
+      <div class="our-tech-section row dark-bg pt-5 pr-5 pl-5 pb-3" id="technology">
+        <div class="col">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="title">OUR TECHNOLOGY</div>
+              <div class="sub-title mb-5">Completely synergize resource taxing relationships via premier niche markets.</div>
+              <p>Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+              <div class="input-group pt-5">
+                <input type="email" class="form-control" placeholder="Want to get in touch? Contact us here.">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary" type="submit">Send Email</button>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-container">
+                <img src="./assets/images/tech.jpg" alt="" style="width: 90%;"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="our-tech-section applications-section row pb-5 light-bg">
+        <div class="col">
+          <div class="row">
+            <div class="col-md-12 p-5">
+              <div class="title text-align-right">APPLICATIONS</div>
+              <div class="sub-title">
+                Our technology can be applied in many areas, including (but not limited to):
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-container">
+                <img src="./assets/images/scopeicon.png" alt="" style="width: 6%;"/>
+              </div>
+              <div class="content">
+                <p>Our liquid crystal lenses allow the miniaturization of true optical zoom for embedded applications such as in the smartphone. This will allow the replacement of several cameras with a single module, increasing space for other features, decreasing costs, and improving aesthetics.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="img-container">
+                <img src="./assets/images/scopeicon2.png" alt="" />
+              </div>
+              <div class="content">
+                <p>Due to the non-mechanical nature of our lenses, they can be used for vibration free and precision focusing for advanced high resolution microscopy compared to current piezo-stages.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="news">
+        <div class="col-md-12 news-section">
+          <h3>News &amp; Results</h3>
+        </div>
+        <div class="col-12">
+          <div class="recent-posts mb-4">
+            <h5>Recent Posts</h5>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="recent-content">
+            <h3>01</h3>
+            <h4>WEEK AGO</h4>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="col-10 recent-content-by">
+          <h2>Proactively envisioned multimedia based expertise. <span>by Adam Spencer</span></h2>
+          <p>Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively
+            coordinate proactive e-commerce via process-centric "outside the box" thinking.</p>
+        </div>
+        <div class="col-2">
+          <div class="recent-content">
+          </div>
+        </div>
+        <div class="col-10">
+          <img src="./assets/images/recent11.jpg" alt="" style="width: 65%;"/>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-2">
+          <div class="recent-content">
+            <h3>01</h3>
+            <h4>WEEK AGO</h4>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="col-10 recent-content-by">
+          <h2>Proactively envisioned multimedia based expertise. <span>by Adam Spencer</span></h2>
+          <p>Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively
+            coordinate proactive e-commerce via process-centric "outside the box" thinking.</p>
+        </div>
+        <div class="col-2">
+          <div class="recent-content">
+          </div>
+        </div>
+        <div class="col-10">
+          <img src="./assets/images/recent11.jpg" alt="" style="width: 65%;"/>
+        </div>
+      </div>
+      <div class="row testmonial-container mb-0">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-content">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis convallis convallis. Sed egestas, metus in lobortis dictum, nulla diam mollis lectus, eget cursus eros nisl at nibh. Nulla maximus bibendum facilisis. Morbi posuere ex neque, id finibus turpis fermentum sed."</p>
+                        <h4>Ishan Mishra</h4>
+                        <h6>Founder</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis convallis convallis. Sed egestas, metus in lobortis dictum, nulla diam mollis lectus, eget cursus eros nisl at nibh. Nulla maximus bibendum facilisis. Morbi posuere ex neque, id finibus turpis fermentum sed."</p>
+                        <h4>Ishan Mishra</h4>
+                        <h6>Founder</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis convallis convallis. Sed egestas, metus in lobortis dictum, nulla diam mollis lectus, eget cursus eros nisl at nibh. Nulla maximus bibendum facilisis. Morbi posuere ex neque, id finibus turpis fermentum sed."</p>
+                        <h4>Ishan Mishra</h4>
+                        <h6>Founder</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row collaboration-container pt-5" style="background-color: #153856;">
+          <div class="col-md-12 col-lg-12 col-12 col-sm-12">
+              <h5>In Collaboration With</h5>
+          </div>
+          <div class="col">
+              <div class="img-container">
+                  <img src="./assets/images/dummy1.png" alt="" />
+              </div>
+          </div>
+          <div class="col">
+              <div class="img-container">
+                  <img src="./assets/images/dummy2.png" alt="" />
+                  <img src="./assets/images/dummy3.png" alt="" />
+              </div>
+          </div>
+          <div class="col">
+              <div class="img-container">
+                  <img src="./assets/images/dummy4.png" alt="" />
+              </div>
+          </div>
+      </div>
+      <div class="row footer-container">
+          <div class="col">
+              <div class="footer">
+                  <div class="img-container">
+                      <img src="./assets/images/logo.png" alt="" style="width: 160px;"/>
+                  </div>
+                  <div class="fotter-links d-flex">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Team</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">News</a></li>
+                      </ul>
+                      <ul>
+                        <li><a href="#">Contact us</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var navbar = document.getElementById('mynav')
+
+      window.onscroll = function() {
+
+        // pageYOffset or scrollY
+        if (window.pageYOffset > 0) {
+          navbar.classList.add('nav-colored')
+        } else {
+          navbar.classList.remove('nav-colored')
+        }
+      }
+  </script>
+</body>
+</html>
