@@ -49,7 +49,7 @@ img{
 .main-section{
   text-align: center;
   padding: 100px 0;
-  margin: 75px 0;
+  margin: 0;
   width: 100%;
 }
 .main-section .title {
@@ -151,9 +151,9 @@ text-align: end;
   border-radius: 50%;
 }
 .testmonial-container{
-  padding: 150px 100px;
+  /*padding: 100px 100px;*/
   text-align: center;
-  margin: 75px -15px;
+  /*margin: 75px -15px;*/
   background-color: #0d1f35;
 }
 .testmonial-container .carousel-content p{
